@@ -28,7 +28,18 @@
 </head>
 
 <body>
-
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+    </script>
+    <script>
+        (function () {
+            window.onload = function () {
+                new BlipChat()
+                .withAppKey('Y3liZXJzZWN1cml0eWNvbmZlcmVuY2U6ZWVjYWM5NjctOTEzYi00YjI3LWI3ZDQtZWRjYmU3YmVmZmVl')
+                .withButton({"color":"#2CC3D5"})
+                .build();
+            }
+        })();
+    </script>
     <!-- PRELOADER-->
     <div id="preloader">
         <div class="clock"></div>
@@ -95,7 +106,7 @@
                             <h2>Cyber Security Conference
                                 <SPAN>20 de outubro 2018</SPAN>
                             </h2>
-                            <a href="#" class="button-hover">Garanta seu ingresso</a>
+                            <a href="#" class="button-hover">Em breve</a>
                         </div>
                         <div id="countdowntimer" class="col-sm-12">
                             <ul class="countdown row">
@@ -675,9 +686,10 @@
                             <p></p>
                             <p>Nos comprometemos em te reembolsar integralmente até 10 dias antes do evento. Depois desse prazo,
                                 não faremos mais nenhum tipo de reembolso.</p>
-                            <b><h7>11. O evento possui código de conduta e de direito de imagem?</h7> </b>
+                            <!--<b><h7>11. O evento possui código de conduta e de direito de imagem?</h7> </b>
                             <p></p>
                             <p>Sim. Pode acessá-los através dos links: <a href="Link Aqui"><h8>Código de conduta</h8></a> e <a href="Link Aqui"><h8>Direito de imagem</h8></a>.</p>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -693,9 +705,9 @@
                     <div class="col-lg-12">
                         <h2>Nos vemos lá ;)</h2>
                         <ul class="social-line list-inline">
-                            <li data-animation="flipInY" data-animation-delay="100"><a href="https://twitter.com/CyberSecurityC5" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li data-animation="flipInY" data-animation-delay="300"><a href="https://www.facebook.com/Cyber-Security-Conference-961439754065213/" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li data-animation="flipInY" data-animation-delay="500"><a href="https://www.instagram.com/cysconference/" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li data-animation="flipInY" data-animation-delay="100"><a href="https://twitter.com/CyberSecurityC5" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li data-animation="flipInY" data-animation-delay="300"><a href="https://www.facebook.com/Cyber-Security-Conference-961439754065213/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li data-animation="flipInY" data-animation-delay="500"><a href="https://www.instagram.com/cysconference/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
 
                         </ul>
                      </div>
