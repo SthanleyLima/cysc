@@ -1,0 +1,725 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SITE TITLE -->
+    <title>Eventro - HTML5 responsive Event template</title>
+
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/favicon.png" sizes="57x57">
+    <link rel="icon" href="images/favicon.png" sizes="72x72">
+    <link rel="icon" href="images/favicon.png" sizes="114x114">
+    <link rel="icon" href="images/favicon.png" sizes="144x144">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+            <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <!-- PRELOADER-->
+    <div id="preloader">
+        <div class="clock"></div>
+    </div>
+    <!-- WRAPPER -->
+    <section class="wrapper" id="container">
+        <!-- START HEADER SECTION -->
+        <header class="header-section">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                            aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img class="img-responsive" src="images/logo.png" width="201" height="46" alt="">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right" id="top-menu">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="#speaker">Palestrantes</a>
+                            </li>
+                            <li>
+                                <a href="#sponsored">Patrocínio</a>
+                            </li>
+                            <li>
+                                <a href="#support">Apoio</a>
+                            </li>
+                            <li>
+                                <a href="#location">Local</a>
+                            </li>
+                            <li>
+                                <a href="#contact">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </header>
+        <!-- end of /. header section -->
+
+
+        <!-- START HEADER SECTION -->
+        <header class="cover-section" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="counter-box wow fadeInDown">
+                        <div class="col-md-12 animated">
+                            <h2>Cyber Security Conference
+                                <SPAN>20 de outubro 2018</SPAN>
+                            </h2>
+                            <a href="#" class="button-hover">Garanta seu ingresso</a>
+                        </div>
+                        <div id="countdowntimer" class="col-sm-12">
+                            <ul class="countdown row">
+                                <li class="couner-box col-sm-3">
+                                    <b class="days">30</b>
+                                    <p class="displayformat">dias</p>
+                                </li>
+                                <li class="couner-box col-sm-3">
+                                    <b class="hours">00</b>
+                                    <p class="displayformat">horas</p>
+                                </li>
+                                <li class="couner-box col-sm-3">
+                                    <b class="minutes">00</b>
+                                    <p class="displayformat">minutos</p>
+                                </li>
+                                <li class="couner-box col-sm-3">
+                                    <b class="seconds">00</b>
+                                    <p class="displayformat">segundos</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+                        <script type="text/javascript" src="js/jquery.downCount.js"></script>
+                        <script type="text/javascript">
+                            $('.countdown').downCount({
+                                date: '10/20/2018 08:00:00',
+                                offset: -3
+                            }, function () {
+                                alert('WOOT WOOT, done!');
+                            });
+                        </script>
+                    </div>
+                </div>
+                <!-- end /. row-->
+            </div>
+            <!-- end of /.container fluid -->
+        </header>
+        <!-- end of /. header section -->
+
+        <!-- START ABOUT SECTION -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="section-title">
+                            <h2>Sobre o evento</h2>
+                        </div>
+                        <div class="row about-item">
+                            <div class="col-md-12">
+                                <div class="about-caption">
+                                    <p>O CySC nasceu através do sonho de alguns amigos que se juntaram com o objetivo de aproximar
+                                        e fortalecer a comunidade de Segurança da Informação.
+                                        <br>
+                                        <br> Para isso, em um dia de evento vamos juntos compartilhar conhecimentos e trazer
+                                        conteúdos relevantes e tendências da área de Segurança da Informação, e claro proporcionar
+                                        networking entre os participantes.</p>
+                                    <a href="#" class="button-hover">Palestrantes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of /.coloumn -->
+                    <div class="col-sm-6">
+                        <div class="video-box">
+                            <!-- 16:9 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="images/security-3497068_1920-704x422.jpg" frameborder="0" webkitallowfullscreen
+                                    mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- end of /.coloumn -->
+                </div>
+                <!-- end of /row. -->
+            </div>
+            <!-- end of /.container -->
+        </section>
+        <!-- end of /.about section -->
+
+        <section class="counter-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <i class="fa fa-microphone"></i>
+                            <div class="counter-caption">
+                                <span>08</span>
+                                <p>Palestrantes</p>
+                            </div>
+                        </div>
+                        <!-- end of /. counter item -->
+                    </div>
+                    <!-- end of /. column -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <i class="fa fa-users"></i>
+                            <div class="counter-caption">
+                                <span>80</span>
+                                <p>pessoas</p>
+                            </div>
+                        </div>
+                        <!-- end of /. counter item -->
+                    </div>
+                    <!-- end of /. column -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <i class="fa fa-clock-o"></i>
+                            <div class="counter-caption">
+                                <span>08</span>
+                                <p>horas</p>
+                            </div>
+                        </div>
+                        <!-- end of /. counter item -->
+                    </div>
+                    <!-- end of /. column -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <i class="fa fa-arrows-h"></i>
+                            <div class="counter-caption">
+                                <span>1</span>
+                                <p>dia</p>
+                            </div>
+                        </div>
+                        <!-- end of /. counter item -->
+                    </div>
+                    <!-- end of /. column -->
+                </div>
+                <!-- end of /. row -->
+            </div>
+            <!-- end of /. container -->
+        </section>
+        <!-- end of /. counter area -->
+
+        <!-- START ABOUT SECTION -->
+        <section class="about-speaker-section" id="speaker">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title">
+                            <h2>Sobre os palesrantes</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="speaker-item  wow fadeInDown animated">
+                            <img class="img-responsive" src="images/team1.png" width="262" height="283" alt="">
+                            <div class="speaker-content">
+                                <h3>?</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of /.about item 1-->
+                    </div>
+                    <!-- end of /.coloumn -->
+                    <div class="col-sm-3">
+                        <div class="speaker-item  wow fadeInDown animated">
+                            <img class="img-responsive" src="images/team2.png" width="262" height="283" alt="">
+                            <div class="speaker-content">
+                                <h3>?</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of /.about item 1-->
+                    </div>
+                    <!-- end of /.coloumn -->
+                    <div class="col-sm-3">
+                        <div class="speaker-item  wow fadeInDown animated">
+                            <img class="img-responsive" src="images/team3.png" width="262" height="283" alt="">
+                            <div class="speaker-content">
+                                <h3>?</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of /.about item 1-->
+                    </div>
+                    <!-- end of /.coloumn -->
+                    <div class="col-sm-3">
+                        <div class="speaker-item  wow fadeInDown animated">
+                            <img class="img-responsive" src="images/team4.png" width="262" height="283" alt="">
+                            <div class="speaker-content">
+                                <h3>?</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of /.about item 1-->
+                    </div>
+                    <!-- end of /.coloumn -->
+                    <div class="col-sm-3">
+                        <div class="speaker-item  wow fadeInDown animated">
+                            <img class="img-responsive" src="images/team5.png" width="262" height="283" alt="">
+                            <div class="speaker-content">
+                                <h3>?</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of /.about item 1-->
+                    </div>
+                    <!-- end of /.coloumn -->
+                    <div class="col-sm-3">
+                        <div class="speaker-item  wow fadeInDown animated">
+                            <img class="img-responsive" src="images/team6.png" width="262" height="283" alt="">
+                            <div class="speaker-content">
+                                <h3>?</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of /.about item 1-->
+                    </div>
+                    <!-- end of /.coloumn -->
+                    <div class="col-sm-3">
+                        <div class="speaker-item  wow fadeInDown animated">
+                            <img class="img-responsive" src="images/team7.png" width="262" height="283" alt="">
+                            <div class="speaker-content">
+                                <h3>?</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of /.about item 1-->
+                    </div>
+                    <!-- end of /.coloumn -->
+                    <div class="col-sm-3">
+                        <div class="speaker-item  wow fadeInDown animated">
+                            <img class="img-responsive" src="images/team8.png" width="262" height="283" alt="">
+                            <div class="speaker-content">
+                                <h3>?</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of /.about item 1-->
+                    </div>
+                    <!-- end of /.coloumn -->
+
+                </div>
+                <!-- end of /row. -->
+            </div>
+            <!-- end of /.container -->
+        </section>
+        <!-- end of /.services section -->
+
+
+
+        <!-- START ABOUT SECTION -->
+        <section class="memories-section" id="work">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title">
+                            <h2>Comunicação</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4 memories-item">
+                        <img class="img-responsive" src="images/meet1.png" width="538" height="369" alt="">
+                        <a href="#">View On Facebook</a>
+                    </div>
+                    <div class="col-sm-5 memories-item">
+                        <img class="img-responsive" src="images/meet2.png" width="538" height="369" alt="">
+                        <a href="#">View On Facebook</a>
+                    </div>
+                    <div class="col-sm-3 memories-item">
+                        <img class="img-responsive" src="images/meet3.png" width="538" height="369" alt="">
+                        <a href="#">View On Facebook</a>
+                    </div>
+                    <div class="col-sm-3 memories-item">
+                        <img class="img-responsive" src="images/meet4.png" width="538" height="369" alt="">
+                        <a href="#">View On Facebook</a>
+                    </div>
+                    <div class="col-sm-5 memories-item">
+                        <img class="img-responsive" src="images/meet5.png" width="538" height="369" alt="">
+                        <a href="#">View On Facebook</a>
+                    </div>
+                    <div class="col-sm-4 memories-item">
+                        <img class="img-responsive" src="images/meet6.png" width="538" height="369" alt="">
+                        <a href="#">View On Facebook</a>
+                    </div>
+                </div>
+                <!-- end of /row. -->
+            </div>
+            <!-- end of /.container -->
+        </section>
+        <!-- end of /.works section -->
+
+
+        <!-- START NEWS LETTER SECTION -->
+        <section class="sponsors-section" id="sponsored">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title">
+                            <h2>Patrocínio </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client1.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client2.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client3.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client4.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client5.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client6.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client7.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client8.png">
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end of/. row -->
+            </div>
+            <!-- end of /.container -->
+        </section>
+        <!-- end of /.news letter section -->
+
+         <!-- START NEWS LETTER SECTION -->
+         <section class="sponsors-section" id="support">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title">
+                            <h2>Apoio</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client1.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client2.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client3.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client4.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client5.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client6.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client7.png">
+                                </a>
+                            </div>
+                            <div class="col-md-3 client-item">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/client8.png">
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end of/. row -->
+            </div>
+            <!-- end of /.container -->
+        </section>
+        <!-- end of /.news letter section -->
+
+        <!-- MAP NEWS LETTER SECTION -->
+        <section class="map-section" id="location">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title">
+                            <h2>Local do evento</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of /.container -->
+            <div class="container-fluid">
+                <div id="map"></div>
+            </div>
+        </section>
+        <!-- end of /.news letter section -->
+
+        <!-- START CONTACT SECTION -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title">
+                            <h2>FAQ </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row">
+
+
+                            <b><h7>1. A quem o evento se destina? </h7></b>
+                            <p></p>
+                            <p>O CySC foi idealizado para quem trabalha e/ou se interessa por Segurança da Informação. E todas
+                                as palestras serão voltadas para esse público. </p>
+
+                            <b><h7>2. Onde será o CySC?</h7></b>
+                            <p></p>
+                            <p>O evento acontecerá na nova unidade UNA-Barro preto, que fica na Rua dos Goitacazes, 1159 - Barro
+                                Preto, Belo Horizonte - MG.</p>
+                            <b><h7>3. O que está incluso no ingresso?</h7></b>
+                            <p></p>
+                            <p>Sua inscrição no CySC garante contato direto com grandes palestrantes, brindes incríveis, coffee
+                                breaks, material de apoio, certificado e muitas surpresas.</p>
+                            <b><h7>4. Como pagar minha inscrição?</h7></b>
+                            <p></p>
+                            <p>Você pode pagar sua inscrição via boleto bancário ou cartão de crédito Visa e Mastercard (nesse
+                                caso, em até 6 vezes sem juros!) via Sympla. </p>
+                            <b><h7>5. Emite Nota Fiscal?</h7></b>
+                            <p></p>
+                            <p>Não emitimos nota fiscal, o evento foi criado por amigos que acreditam que o tema deva ser mais
+                                abordado em BH e região, e é totalmente sem fins lucrativos</p>
+                            <b><h7>6. Emite Certificado Online?</h7></b>
+                            <p></p>
+                            <p>Sim, enviaremos seu certificado online para o email cadastrado em até 7 dias úteis após o evento.</p>
+                            <b><h7>7. Haverá convidados especiais?</h7> </b>
+                            <p></p>
+                            <p>Sim, estamos preparando muitas surpresas especiais para você :) </p>
+
+                            <p>Em breve divulgaremos os palestrantes e a grade de palestras.</p>
+
+                            <b><h7>8. Os participantes devem chegar em qual horário?</h7></b>
+                            <p></p>
+                            <p>O CySC começa às 08:30h, e o ideal é que os participantes cheguem às 08h para o credenciamento.
+                                Encerraremos o evento às 18h.</p>
+                            <b><h7>9. O local possui estacionamento?</h7></b>
+                            <p></p>
+                            <p>Infelizmente não, mas existem diversos estacionamentos privados na região do evento. Vamos divulgar
+                                estacionamentos conveniados com o evento em breve.</p>
+                            <b><h7>10. Qual é a política de reembolso?</h7> </b>
+                            <p></p>
+                            <p>Nos comprometemos em te reembolsar integralmente até 10 dias antes do evento. Depois desse prazo,
+                                não faremos mais nenhum tipo de reembolso.</p>
+                            <b><h7>11. O evento possui código de conduta e de direito de imagem?</h7> </b>
+                            <p></p>
+                            <p>Sim. Pode acessá-los através dos links: <a href="Link Aqui"><h8>Código de conduta</h8></a> e <a href="Link Aqui"><h8>Direito de imagem</h8></a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of /.container -->
+        </section>
+        <!-- end of /.contact section -->
+
+        <!-- START FOOTER SECTION -->
+        <footer class="copyright-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Nos vemos lá ;)</h2>
+
+                    </div>
+                </div>
+                <!-- end of /.row -->
+            </div>
+            <!-- end of /.container -->
+        </footer>
+        <!-- end of/. copyright section -->
+
+    </section>
+    <!-- end of /.wrapper section -->
+
+    <!-- JQUERY LIB -->
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- SMOTH SCROLL -->
+    <script src="js/smoth-scroll.js"></script>
+    <!-- JQUERY COUNTER -->
+    <script src="js/jquery.downCount.js"></script>
+    <!-- WOW JS  -->
+    <script src="js/wow.min.js"></script>
+
+    <script src="js/custom.js"></script>
+    <!-- CUSTOM JS-->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="js/map.js"></script>
+
+</body>
+
+</html>
