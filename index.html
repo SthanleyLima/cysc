@@ -30,16 +30,6 @@
 <body>
     <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
     </script>
-    <script>
-        (function () {
-            window.onload = function () {
-                new BlipChat()
-                .withAppKey('Y3liZXJzZWN1cml0eWNvbmZlcmVuY2U6ZWVjYWM5NjctOTEzYi00YjI3LWI3ZDQtZWRjYmU3YmVmZmVl')
-                .withButton({"color":"#2CC3D5"})
-                .build();
-            }
-        })();
-    </script>
     <!-- PRELOADER-->
     <div id="preloader">
         <div class="clock"></div>
@@ -736,7 +726,18 @@
     <!-- CUSTOM JS-->
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
     <script src="js/map.js"></script>
-
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+    </script>
+    <script>
+        (function () {
+            window.onload = function () {
+                new BlipChat()
+                .withAppKey('Y3liZXJzZWN1cml0eWNvbmZlcmVuY2U6ZWVjYWM5NjctOTEzYi00YjI3LWI3ZDQtZWRjYmU3YmVmZmVl')
+                .withButton({"color":"#3c763d"})
+                .build();
+            }
+        })();
+    </script>
 </body>
 
 </html>
